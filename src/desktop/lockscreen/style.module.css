@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background: grey;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+}
+
+.creds {
+    height: 200px;
+    width: 200px;
+    /* background: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.initials {
+    height: 100px;
+    width: 100px;
+    background: black;
+    border-radius: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    opacity: 0.5;
+}
+
+.name {
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.signIn {
+    height: 30px;
+    width: 60%;
+    text-transform: capitalize;
+    background: black;
+    color: white;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.slideUp {
+    height: 0;
+}

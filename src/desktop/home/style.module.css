@@ -1,0 +1,87 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.taskBar {
+    width: 100%;
+    height: 35px;
+    background: black;
+    display: flex;
+}
+
+.home {
+    flex: 1;
+}
+
+.start {
+    height: 100%;
+    width: 35px;
+    background: white;
+}
+
+.popup {
+    position: absolute;
+    bottom: 35px;
+    height: 400px;
+    width: 300px;
+    background: white;
+    transition: opacity 0.1s;
+    opacity: 0;
+    box-shadow: 3px -4px 10px #888888;
+    display: flex;
+}
+
+.popupvisible {
+    opacity: 1;
+}
+
+.popupleftsidebar {
+    width: 55px; 
+    height: 100%;
+    background: green;
+}
+
+.popuplist {
+    display: flex;
+    flex:1;
+    background: black;
+    padding: 10px 10px 0 0;
+}
+
+.popuplistcontent {
+    height: 100%;
+    overflow-y: auto;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: all 0.1s 0.1s;
+}
+
+.contentlistshow {
+    opacity: 1;
+}
+
+.contentlist {
+    width: 100%;
+    height: 35px;
+}
+
+.contentlist:hover {
+    background: grey;
+}
+
+.blockdefault {
+    height: 50px;
+    overflow: hidden;
+    transition: all 0.1s 0.1s;
+}
+
+.blockdefaulthide {
+    height: 0;
+}
